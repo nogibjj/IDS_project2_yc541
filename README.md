@@ -1,25 +1,32 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+# Week 2: Pandas Descriptive Statistics Script
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+This report provides a descriptive statistical analysis of the Spotify 2023 dataset. We will evaluate the reading of the data, the accuracy of the summary statistics, and the quality of the data visualization.
 
-Things included are:
+## Tasks
 
-* `Makefile`
+### 1. Correctly Reads Dataset 
 
-* `Pytest`
+The dataset has been successfully read from the CSV file. Preliminary cleaning and processing have been conducted to ensure the quality and completeness of the data.
 
-* `pandas`
+### 2. Accurate Summary Statistics 
 
-* `Pylint`
+Descriptive statistics have been generated for selected numeric columns. This includes the mean, median, and standard deviation, providing an overview of the data's central tendency and dispersion.
 
-* `Dockerfile`
+### 3. Data Visualization 
 
-* `GitHub copilot`
+A bar chart has been produced, showcasing the top 10 most streamed songs on Spotify in 2023. This helps identify which songs were most popular during the year.
 
-* `jupyter` and `ipython` 
+## Deliverables
 
-* A base set of libraries for devops and web
+### 1. Python Script
+A Python script has been provided that reads the data, generates the descriptive statistics, and produces the data visualization.
 
-* `githubactions` 
+### 2. Generated Summary Markdown Report
 
+This report details the analysis process, results, and deliverables.
+
+## How to Run the Data Analysis Script
+1. Prepare a CSV file for analysis. I got my test csv file from: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023?resource=download. 
+   Place the CSV file in the same directory as the script or update the file path of the CSV file is correct.
+2. Run the Script: python pandas_script.py
+3. Check the output for summary statistics and the generated bar chart image.
